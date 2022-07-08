@@ -1,18 +1,61 @@
-div {
-background: rgb(242, 242, 255); 
-font-size: 20px; 
-border-radius: 10px;
-margin: 40px;
-width: 350px;
-border: 2px solid black;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+.box1{
+    width: 50px;
+    height: 50px;
+    background-color: black;
 }
-h1 {
-    padding-left: 85px;
+.box2 > .carre{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-left: 10px ;
 }
-h3 {
-    padding-left: 150px;
+
+.sous-flex-container{
+    display: flex;
 }
-h5 {
-    padding-left: 225px;
+.sous-flex-container1 {
+    display: flex;
+    justify-content: space-around;
 }
-  
+.carre2{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-right: 10px;
+}
+.flex-container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sous-flex-container2 {
+     display: flex;
+}
+.flex-container3{
+}
+.sous-flex-container3{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/*
+.box {
+    display: flex;
+    justify-content: space-between;
+  }
+.block2{
+    display: flex;
+    justify-content: center;
+} */
+
+

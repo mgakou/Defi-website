@@ -1,0 +1,49 @@
+.zonehaut{
+    background-color: rgb(238, 84, 84);
+    width: 1000px;
+    height: 50px;
+}
+.texth{
+    text-align: center;
+    color: white;
+    font-size: 22px;   
+}
+.container{
+    display: flex;
+}
+.centre > .zs {
+    display: flex;
+}
+.z{
+    background-color: rgb(69, 226, 25);
+    height: 800px;
+    width: 140px;
+    text-align: center;
+    color: white;
+    margin-right: 2px ;
+}
+.container .Z{
+    background-color: rgb(35, 13, 237);
+    width: 150px;
+    height: 1000px;
+}
+.container .textg{
+    text-align: center;
+    color: white;
+    font-size: 20px;   
+}
+.centre > .zonebas {
+    background-color: yellow;
+    width: 707px;
+    height: 200px;
+}
+.centre > .zonebas > .textb{
+    text-align: center ;
+    color: rgba(94, 43, 221, 0.706);
+    font-size: 22px;    
+}
+.container .textd{
+    text-align: center;
+    color: white;
+    font-size: 20px;   
+}
