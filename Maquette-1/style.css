@@ -68,7 +68,15 @@ a{
 .sign-up-text{
     color: white;
 }
+
+
+
+
+
+/* Deuxème bloc : Banner */
+
 .banner {
+    height: 450px;
     border-bottom: 2px solid black;
     display: flex;
 }
@@ -76,24 +84,73 @@ a{
     background-color: #E4F1F9;
     padding-left: 45px;
     padding-right: 45px;
+    /* J'ajoute du pad-top sur l'ensemble du container-2 */
+    padding-top: 45px;
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    
+    justify-content:space-between;
+}
+.banner-2-left{
+   background-image: radial-gradient(farthest-side, #F0E6CD,#E4F1F9)
 }
 .big-title{
+    margin-bottom: 0px;
     font-size: 49px;
 }
+/* .icone-stars{
+    height: 40px;
+    width: 40px;
+    padding-left: 250px;
+    padding-top: 0px;
+} */
+/* J'applique un padding-top au div contenant le lien
+pour mettre un peu de distance avec le <p> au dessus */
+.try-it-now{
+    padding-top: 30px;
+}
+/* J'applique du style : bordure, alignement du text, fond et 
+une ombre */
 .try-it-now-text{
     border: #000 solid 1px;
-    border-radius: 50px;
+    border-radius: 30px;
     text-align: center;
     background-color: #ffffff;
     padding: 10px 15px;
     box-shadow: 3px 1.4px;
 }
-
-.imge-test{
-    height: 200px;
-    width: 200px;
+.banner-2-right{
+    /* J'ajoute exeptionnelement du padding-top au div de gauche
+    pour qui-il ait à peu près le meme niveau qeu le big title */
+    padding-top: 30px;
+    padding-right: 22px;
+}
+/* Je dessin la box */
+.box{
+    height: 304px;
+    width: 380px;
+    box-shadow: 10px 14px #84A7FA ;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 18px;
+    transform: skew(-3deg, -3deg);
+}
+/* Je donne un espace padding entre les élements à l'interieur de la box
+et les contours de la box */
+.inside-box{
+    padding:15px 0px 0px 20px;
+}
+/* J'alligne les images et les paragraphes, puis je les centre */
+.inside-box > .mini-img{
+    display: flex;
+    align-items: center;
+}
+/* Je reduit la taille des images */
+.img{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    margin-right: 10px;
+    /* J'ajoute un contour rond aux images */
+    clip-path:ellipse(50% 50%)
 }
